@@ -3,237 +3,242 @@ modules:
     items:
       - name: Welcome - 15 Minutes
         type: file
-        file: welcome.mov
+        file: GMT20250821-160106_Recording_1920x1080.mp4
       - name: Welcome Presentation Slides
         type: file
         file: welcome_presentation.pptx
-      - name: Syllabus
-        type: file
-        file: syllabus.pdf
-      - name: Access Checklist
-        type: content
-        due_date: '' # 2024-09-01T23:59:00Z
-        content: access_checklist.md
+      # - name: Syllabus
+      #   type: file
+      #   file: syllabus.pdf
+      # - name: Access Checklist
+      #   type: content
+      #   due_date: '2026-01-19T21:00:00Z'
+      #   content: access_checklist.md
       - name: Product Abstracts
-        type: link
-        link: product_abstracts
+        type: content
+        content: client-based_project_abstracts.md
       - name: Pre-Registration Survey
         type: link
-        due_date: '' # 2024-09-01T23:59:00Z
-        link: pre_registration_survey
+        due_date: '2026-01-14T22:00:00Z'
+        link: https://forms.cloud.microsoft/r/fgk6RFSPqX
   - name: Resources & Information
     items:
-      - name: Opening Skills & Solutions - One Pager
-        type: file
-        file: OpeningSkillsSolutions-OnePager.pdf
+      # - name: Opening Skills & Solutions - One Pager
+      #   type: file
+      #   file: OpeningSkillsSolutions-OnePager.pdf
       - name: Developer Handbook
         type: link
-        link: https://... # link to developer handbook
+        link: https://github.com/oss-slu/handbook_developer
       - name: BLA3DE
         type: file
         file: BLA3DE.pdf
       - name: Scheduling 1:1 Meetings
-        type: link
-        due_date: '' # 2024-09-05T23:59:00Z
-        link: scheduling_1on1_meetings
+        type: content
+        due_date: '2026-02-02T21:00:00Z'
+        content: guidelines_for_constructive_feedback_in_11_meetings.md
       - name: Conference Travel Stipend
-        type: link
-        link: conference_stipend_info
+        type: content
+        content: open_source_conference_travel_stipend_program.md
       - name: Excellence
         type: assignment
-        due_date: '' # 2024-11-06T23:59:00Z
-        assignment: excellence_assignment
+        due_date: '2026-05-04T21:00:00Z'
+        assignment: excellence
 
   - name: Sprint Structure & Schedule
     items:
       - name: Sprint Structure & Expectations
-        type: link
-        link: sprint_structure_expectations
+        type: content
+        content: sprint_structure_expectations.md
   - name: Sprint 0
     items:
-      - name: { sprint_0_dates }
+      - name: "Sprint 0: Jan 13 - Jan 26"
         type: label
-      - name: BLA3DE Presentation
-        type: link
-        link: BLA3DE_{ session }.pptx
+      # TODO: Add BLA3DE presentation file
+      # - name: BLA3DE Presentation
+      #   type: file
+      #   file: BLA3DE.pptx
+      - name: Project Pre-Registration
+        type: assignment
+        due_date: '2026-01-19T21:00:00Z'
+        assignment: project_pre-registration
       - name: Team Formation & Onboarding
         type: assignment
-        due_date: '' # 2024-09-05T23:59:00Z
+        due_date: '2026-01-26T21:00:00Z'
         assignment: team_formation_onboarding
   - name: Sprint 1
     items:
-      - name: { sprint_1_dates }
+      - name: "Sprint 1: Jan 27 - Feb 9"
         type: label
-      - name: { weekly_video_1_title }
-        type: link
-        link: { weekly_video_1_link }
+      # - name: "{ weekly_video_1_title }"
+      #   type: link
+      #   link: { weekly_video_1_link }
       - name: Checkpoint - Team Working Agreement
         type: assignment
-        due_date: '' # 2024-09-08T23:59:00
-        assignment: checkpoint_team_working_agreement
-      - name: Mid-Sprint 1 Check-In
+        due_date: '2026-02-02T21:00:00Z'
+        assignment: checkpoint-team_working_agreement
+      # - name: "{ weekly_video_2_title }"
+      #   type: link
+      #   link: { weekly_video_2_link }
+      - name: Good Practice - Peer Code Review
         type: assignment
-        due_date: '' # 2024-09-11T23:59:00
-        assignment: mid_sprint_1_check_in
-      - name: { weekly_video_2_title }
-        type: link
-        link: { weekly_video_2_link }
-      - name: Checkpoint - Initial Peer Code Review
-        type: assignment
-        due_date: '' # 2024-09-15T23:59:00Z
+        due_date: '2026-02-09T21:00:00Z'
         assignment: code_review
-      - name: Spint 1 Close
-        type: quiz
-        due_date: '' # 2024-09-15T23:59:00Z
-        quiz: sprint_1_close
+      - name: Sprint 1 Close
+        type: assignment
+        due_date: '2026-02-09T21:00:00Z'
+        assignment: sprint_1_close
   - name: Sprint 2
     items:
-      - name: { sprint_2_dates }
+      - name: "Sprint 2: Feb 10 - Feb 23"
         type: label
-      - name: { weekly_video_3_title }
-        type: link
-        link: { weekly_video_3_link }
+      # - name: "{ weekly_video_3_title }"
+      #   type: link
+      #   link: { weekly_video_3_link }
       - name: Checkpoint - Team Outing
         type: assignment
-        due_date: '' # 2024-09-22T23:59:00Z
-        assignment: checkpoint_project_plan
-      - name: Mid-Sprint 2 Check-In
-        type: assignment
-        due_date: '' # 2024-09-25T23:59:00Z
-        assignment: mid_sprint_2_check_in
-      - name: { weekly_video_4_title }
-        type: link
-        link: { zweekly_video_4_link }
-      - name: Checkpoint - User Documentation Draft
-        type: assignment
-        due_date: '' # 2024-09-29T23:59:00Z
-        assignment: user_documentation_draft
+        due_date: '2026-02-16T21:00:00Z'
+        assignment: checkpoint-team_outing
+      # - name: "{ weekly_video_4_title }"
+      #   type: link
+      #   link: { zweekly_video_4_link }
       - name: Sprint 2 Close
-        type: quiz
-        due_date: '' # 2024-09-29T23:59:00Z
-        quiz: sprint_2_close
+        type: assignment
+        due_date: '2026-02-23T21:00:00Z'
+        assignment: sprint_2_close
+      - name: Client Demo & Feedback 1 (Bonus)
+        type: assignment
+        due_date: '2026-02-23T21:00:00Z'
+        assignment: client_demo_feedback_1
   - name: Sprint 3
     items:
-      - name: { sprint_3_dates }
+      - name: "Sprint 3: Feb 24 - Mar 9"
         type: label
-      - name: { weekly_video_5_title }
-        type: link
-        link: { weekly_video_5_link }
-      - name: Checkpoint - Retrospective
+      # - name: "{ weekly_video_5_title }"
+      #   type: link
+      #   link: { weekly_video_5_link }
+      - name: Team Retrospective
         type: assignment
-        due_date: '' # 2024-10-06T23:59:00Z
-        assignment: checkpoint_retrospective
-      - name: Mid-Sprint 3 Check-In
-        type: assignment
-        due_date: '' # 2024-10-09T23:59:00Z
-        assignment: mid_sprint_3_check_in
-      - name: { weekly_video_6_title }
-        type: link
-        link: { weekly_video_6_link }
-      - name: Performance Evaluation - Mid-Iteration Check-Up 
-        type: assignment
-        due_date: '' # 2024-10-13T23:59:00Z
-        assignment: performance_evaluation
+        due_date: '2026-02-24T06:00:00Z'
+        assignment: checkpoint-retrospective_1_action_items
+      # - name: "{ weekly_video_6_title }"
+      #   type: link
+      #   link: { weekly_video_6_link }
       - name: Sprint 3 Close
-        type: quiz
-        due_date: '' # 2024-10-13T23:59:00Z
-        quiz: sprint_3_close
+        type: assignment
+        due_date: '2026-03-09T21:00:00Z'
+        assignment: sprint_3_close
+  - name: Iteration 1
+    items:
+      - name: Milestone 1
+        type: Assignment
+      - name: Performance Evaluation - Iteration Check-Up
+        type: assignment
+        due_date: '2026-03-06T21:00:00Z'
+        assignment: performance_evaluation-mid_iteration_check_up
+
   - name: Sprint 4
     items:
-      - name: { sprint_4_dates }
+      - name: "Sprint 4: Mar 16 - Mar 30"
         type: label
-      - name: { weekly_video_7_title }
-        type: link
-        link: { weekly_video_7_link }
-      - name: Mid-Sprint 4 Check-In
+      # - name: "{ weekly_video_7_title }"
+      #   type: link
+      #   link: { weekly_video_7_link }
+      # - name: "{ weekly_video_8_title }"
+      #   type: link
+      #   link: { weekly_video_8_link }
+      - name: Sprint 4 Close
         type: assignment
-        due_date: '' # 2024-10-18T23:59:00Z
-        assignment: mid_sprint_4_check_in
-      - name: { weekly_video_8_title }
-        type: link
-        link: { weekly_video_8_link }
-      - name: Spint 4 Close
-        type: quiz
-        due_date: '' # 2024-10-20T23:59:00Z
-        quiz: sprint_4_close
+        due_date: '2026-03-30T21:00:00Z'
+        assignment: sprint_4_close
+      - name: Client Demo & Feedback 2 (Bonus)
+        type: assignment
+        due_date: '2026-03-30T21:00:00Z'
+        assignment: client_demo_feedback_2
       - name: 'Checkpoint - Retrospective #2 Action Items'
         type: assignment
-        due_date: '' # 2024-10-20T23:59:00Z
-        assignment: checkpoint_retrospective_2_actions
+        due_date: '2026-03-31T05:00:00Z'
+        assignment: checkpoint-retrospective_2_action_items
   - name: Sprint 5
     items:
-      - name: { sprint_5_dates }
+      - name: "Sprint 5: Mar 31 - Apr 13"
         type: label
-      - name: { weekly_video_9_title }
-        type: link
-        link: { weekly_video_9_link }
-      - name: Checkpoint - Presentation Draft
+      # - name: "{ weekly_video_9_title }"
+      #   type: link
+      #   link: { weekly_video_9_link }
+      - name: Checkpoint - Poster Presentation Draft
         type: assignment
-        due_date: '' # 2024-10-25T23:59:00Z
-        assignment: checkpoint_presentation_draft
-      - name: Mid-Sprint 5 Check-In
-        type: assignment
-        due_date: '' # 2024-10-25T23:59:00Z
-        assignment: mid_sprint_5_check_in
-      - name: { weekly_video_10_title }
-        type: link
-        link: { weekly_video_10_link }
+        due_date: '2026-04-13T21:00:00Z'
+        assignment: checkpoint-presentation_drafts
+      # - name: "{ weekly_video_10_title }"
+      #   type: link
+      #   link: { weekly_video_10_link }
       - name: Sprint 5 Close
-        type: quiz
-        due_date: '' # 2024-10-27T23:59:00Z
-        quiz: sprint_5_close
+        type: assignment
+        due_date: '2026-04-13T21:00:00Z'
+        assignment: sprint_5_close
   - name: Sprint 6
     items:
-      - name: { sprint_6_dates }
+      - name: "Sprint 6: Apr 14 - Apr 27"
         type: label
-      - name: { weekly_video_11_title }
-        type: link
-        link: { weekly_video_11_link }
-      - name: Mid-Sprint 6 Check-In
-        type: assignment
-        due_date: '' # 2024-11-01T23:59:00Z
-        assignment: mid_sprint_6_check_in
-      - name: { weekly_video_12_title }
-        type: link
-        link: { weekly_video_12_link }
+      # - name: "{ weekly_video_11_title }"
+      #   type: link
+      #   link: { weekly_video_11_link }
+      # - name: "{ weekly_video_12_title }"
+      #   type: link
+      #   link: { weekly_video_12_link }
       - name: Sprint 6 Close
-        type: quiz
-        due_date: '' # 2024-11-03T23:59:00Z
-        quiz: sprint_6_close
-
-  - name: Launch & Reflection
+        type: assignment
+        due_date: '2026-04-27T21:00:00Z'
+        assignment: sprint_6_close
+  - name: Iteration 2
     items:
-      - name: { launch_dates }
+      - name: Milestone 2
+        type: Assignment
+      - name: Performance Evaluation - Iteration Check-Up
+        type: assignment
+        due_date: '2026-05-04T21:00:00Z'
+        assignment: performance_evaluation-iteration_close_evaluation
+    
+
+  - name: Launch & Course Reflection
+    items:
+      - name: "Launch: Apr 28 - May 11"
         type: label
-      - name: Launch Video
-        type: link
-        link: launch_video
-      - name: Launch Preparation Checklist
-        type: file
-        file: launch_preparation_checklist.pdf
+      # TODO: Add launch video URL when available
+      # - name: Launch Video
+      #   type: link
+      #   link: launch_video
+      # - name: Launch Preparation Checklist
+      #   type: file
+      #   file: launch_preparation_checklist.pdf
 
       - name: Deliverables
         type: label
       - name: Team Presentation
         type: assignment
-        due_date: '' # 2024-11-08T23:59:00Z
-        assignment: final_presentation
+        due_date: '2026-04-30T16:00:00' # 2024-11-08T23:59:00Z
+        assignment: team_presentation
       - name: Working Software Submission
         type: assignment
-        due_date: '' # 2024-11-08T23:59:00Z
-        assignment: final_project_submission
+        due_date: '2026-05-11T21:00:00Z'
+        assignment: working_software
       - name: Excellence
         type: assignment
-        due_date: '' # 2024-11-06T23:59:00Z
-        assignment: excellence_assignment
+        due_date: '2026-05-04T21:00:00Z'
+        assignment: excellence
 
-      - name: Reflection & Feedback
+      - name: Reflection & Evaluation
         type: label
+      - name: 'Checkpoint - Retrospective #3 Action Items'
+        type: assignment
+        due_date: '2026-04-28T06:00:00Z'
+        assignment: checkpoint-retrospective_3_action_items
       - name: Performance Evaluation - Final Review
         type: assignment
-        due_date: '' # 2024-11-08T23:59:00Z
+        due_date: '2026-05-15T21:00:00Z'
         assignment: final_performance_evaluation
-      - name: Course Reflection Survey
-        type: link
-        due_date: '' # 2024-11-10T23:59:00Z
-        link: course_reflection_survey
+      # TODO: Add course reflection survey URL when available
+      # - name: Course Reflection Survey
+      #   type: link
+      #   due_date: '2026-05-11T21:00:00Z'
+      #   link: course_reflection_survey

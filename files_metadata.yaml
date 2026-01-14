@@ -1,0 +1,19 @@
+files:
+- name: BLA3DE.pdf
+  filename: BLA3DE.pdf
+  size: 176682
+  content_type: application/pdf
+  url: https://canvas.slu.edu/files/6704109/download?download_frd=1&verifier=YoBMjJs9PjREpVFBw4CznRBawLeIvR6VfSGe5Nlc
+  folder_id: 785720
+- name: GMT20250821-160106_Recording_1920x1080.mp4
+  filename: GMT20250821-160106_Recording_1920x1080.mp4
+  size: 24060946
+  content_type: video/mp4
+  url: https://canvas.slu.edu/files/6686919/download?download_frd=1&verifier=qbfWN7GG44OdhcPNWnMKDVuXVLkc0IPw11y2Dcbh
+  folder_id: 785720
+- name: welcome_presentation.pptx
+  filename: welcome_presentation.pptx
+  size: 38688499
+  content_type: application/vnd.openxmlformats-officedocument.presentationml.presentation
+  url: https://canvas.slu.edu/files/6686925/download?download_frd=1&verifier=5lH8eiAhaDtOEGKM43rm0Do5gnIL5GA5P2ykuHUz
+  folder_id: 785720

@@ -1,0 +1,84 @@
+course_id: 79370
+extracted_at: 2026-01-10T12:24:27
+attachments:
+- file_id: 6848200
+  filename: success.png
+  local_path: content/october_performance_evaluation_-_scheduling_11s/attachments/success.png
+  content_type: image/png
+  sources:
+  - source_type: page
+    source_name: october_performance_evaluation_-_scheduling_11s
+  download_failed: false
+- file_id: 6704109
+  filename: BLA3DE.pdf
+  local_path: files/BLA3DE.pdf
+  content_type: application/pdf
+  sources:
+  - source_type: course_file
+    source_name: BLA3DE.pdf
+  download_failed: false
+- file_id: 6900501
+  filename: Collaboration+Drives+Innovation.mov
+  local_path: files/Collaboration+Drives+Innovation.mov
+  content_type: video/quicktime
+  sources:
+  - source_type: course_file
+    source_name: Collaboration Drives Innovation.mov
+  download_failed: false
+- file_id: 6686919
+  filename: GMT20250821-160106_Recording_1920x1080.mp4
+  local_path: files/GMT20250821-160106_Recording_1920x1080.mp4
+  content_type: video/mp4
+  sources:
+  - source_type: course_file
+    source_name: GMT20250821-160106_Recording_1920x1080.mp4
+  download_failed: false
+- file_id: 6858329
+  filename: How+Code+Review+Actually+Works.mov
+  local_path: files/How+Code+Review+Actually+Works.mov
+  content_type: video/quicktime
+  sources:
+  - source_type: course_file
+    source_name: How Code Review Actually Works.mov
+  download_failed: false
+- file_id: 6900533
+  filename: Individual+Professionalism.mov
+  local_path: files/Individual+Professionalism.mov
+  content_type: video/quicktime
+  sources:
+  - source_type: course_file
+    source_name: Individual Professionalism.mov
+  download_failed: false
+- file_id: 6858332
+  filename: Software+Is+Never+Finished.mov
+  local_path: files/Software+Is+Never+Finished.mov
+  content_type: video/quicktime
+  sources:
+  - source_type: course_file
+    source_name: Software Is Never Finished.mov
+  download_failed: false
+- file_id: 6686914
+  filename: syllabus_261.pdf
+  local_path: files/syllabus_261.pdf
+  content_type: application/pdf
+  sources:
+  - source_type: course_file
+    source_name: syllabus_261.pdf
+  download_failed: false
+- file_id: 6686925
+  filename: welcome_presentation.pptx
+  local_path: files/welcome_presentation.pptx
+  content_type: application/vnd.openxmlformats-officedocument.presentationml.presentation
+  sources:
+  - source_type: course_file
+    source_name: welcome_presentation.pptx
+  download_failed: false
+- file_id: 6858322
+  filename: What+Are+You+Actually+Doing.mov
+  local_path: files/What+Are+You+Actually+Doing.mov
+  content_type: video/quicktime
+  sources:
+  - source_type: course_file
+    source_name: What Are You Actually Doing.mov
+  download_failed: false
+failed_count: 0
