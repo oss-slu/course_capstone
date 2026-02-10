@@ -28,7 +28,10 @@ course:
       email: "daniel.shown@slu.edu"
       github_username: "kungfuchicken"
       office_hours_link: "https://calendly.com/daniel-shown/30min"
-  roster: "./roster-capstone-final.csv"
+
+# Roster Configuration
+roster:
+  path: "./roster-capstone-final.csv"
 
 # Canvas Configuration
 canvas:
@@ -77,7 +80,7 @@ slack:
   workspace_id: "T03ND1N37T5"
   channel_prefix: "capstone"
   channels:
-    - name: "{prefix}-{semester}"
+    - name: "csci-{prefix}-{semester}"
       description: "Capstone Course Channel"
       is_private: true
 

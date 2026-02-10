@@ -1,0 +1,297 @@
+provisioned_at: 2026-01-28T20:11:38.059530+00:00
+dry_run: false
+course_id: 83690
+template_dir: /Users/shownde/code/slu/oss/__instruction/course_capstone
+repo_access:
+  repo: oss-slu/course_capstone
+  students_granted: 8
+  students_skipped: 0
+  branch_protection: false
+github_project:
+  title: Capstone - 262
+  number: 78
+  id: PVT_kwDOBit-m84BMoEb
+  url: https://github.com/orgs/oss-slu/projects/78
+  org: oss-slu
+  issues:
+  - title: '[262] [Evaluation] Schedule 1-on-1 Check-ins'
+    source: issues/00-scheduling-1-1.md
+  - title: '[262] [Developer] Welcome & Course Orientation'
+    source: issues/00-welcome.md
+  - title: '[262] [Developer] Checkpoint - Poster Presentation Draft'
+    source: issues/developer-checkpoint-presentation_drafts.md
+  - title: '[262] [Developer] Checkpoint - Retrospective 1 Action Items'
+    source: issues/developer-checkpoint-retrospective_1.md
+  - title: '[262] [Developer] Checkpoint - Retrospective 2 Action Items'
+    source: issues/developer-checkpoint-retrospective_2.md
+  - title: '[262] [Developer] Checkpoint - Retrospective 3 Action Items'
+    source: issues/developer-checkpoint-retrospective_3.md
+  - title: '[262] [Developer] Checkpoint - Team Outing'
+    source: issues/developer-checkpoint-team_outing.md
+  - title: '[262] [Developer] Checkpoint - Team Working Agreement'
+    source: issues/developer-checkpoint-team_working_agreement.md
+  - title: '[262] [Developer] Client Demo & Feedback 1 (Bonus)'
+    source: issues/developer-client_demo_1-bonus.md
+  - title: '[262] [Developer] Client Demo & Feedback 2 (Bonus)'
+    source: issues/developer-client_demo_2-bonus.md
+  - title: '[262] [Developer] Good Practice - Peer Code Review'
+    source: issues/developer-code_review.md
+  - title: '[262] [Developer] Excellence Assignment'
+    source: issues/developer-excellence.md
+  - title: '[262] [Developer] SSE Showcase Presenter Registration'
+    source: issues/developer-sse_showcase_registration.md
+  - title: '[262] [Developer] Team Formation & Onboarding'
+    source: issues/developer-team_formation_onboarding.md
+  - title: '[262] [Developer] Team Presentation'
+    source: issues/developer-team_presentation.md
+  - title: '[262] [Developer] Working Software Submission'
+    source: issues/developer-working_software.md
+  - title: '[262] [Discussion] Week 1 - Team Formation & Onboarding'
+    source: issues/discussion-week-01-team-formation.md
+  - title: '[262] [Discussion] Week 2 - Working Agreements & Norms'
+    source: issues/discussion-week-02-working-agreements.md
+  - title: '[262] [Discussion] Week 3 - Code Review Culture'
+    source: issues/discussion-week-03-code-review-culture.md
+  - title: '[262] [Discussion] Week 4 - Team Building & Relationships'
+    source: issues/discussion-week-04-team-building.md
+  - title: '[262] [Discussion] Week 5 - Demo Preparation & Sprint Close'
+    source: issues/discussion-week-05-demo-prep.md
+  - title: '[262] [Discussion] Week 6 - Retrospective 1'
+    source: issues/discussion-week-06-retrospective-1.md
+  - title: '[262] [Discussion] Week 7 - Mid-Semester Check-in'
+    source: issues/discussion-week-07-mid-semester-checkin.md
+  - title: '[262] [Discussion] Week 8 - Sustained Engagement'
+    source: issues/discussion-week-08-sustained-engagement.md
+  - title: '[262] [Discussion] Week 9 - Demo 2 & Retrospective 2'
+    source: issues/discussion-week-09-demo-2-retro-2.md
+  - title: '[262] [Discussion] Week 10 - Presentation Preparation'
+    source: issues/discussion-week-10-presentation-prep.md
+  - title: '[262] [Discussion] Week 11 - Showcase Polish'
+    source: issues/discussion-week-11-showcase-polish.md
+  - title: '[262] [Discussion] Week 12 - Retrospective 3 & Final Push'
+    source: issues/discussion-week-12-retro-3-final-push.md
+  - title: '[262] [Discussion] Week 13 - Showcase Delivery'
+    source: issues/discussion-week-13-showcase-delivery.md
+  - title: '[262] [Discussion] Week 14 - Excellence & Final Coordination'
+    source: issues/discussion-week-14-excellence-completion.md
+  - title: '[262] [Discussion] Week 15 - Final Submissions & Wrap-up'
+    source: issues/discussion-week-15-final-submissions.md
+    number: 114
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcSA
+  - title: '[262] [Evaluation] Final Performance Evaluation'
+    source: issues/evaluation-final_performance_evaluation.md
+    number: 115
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcSc
+  - title: '[262] [Evaluation] Iteration Close Evaluation'
+    source: issues/evaluation-iteration_close_evaluation.md
+    number: 116
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcSo
+  - title: '[262] [Evaluation] Mid-Iteration Check Up'
+    source: issues/evaluation-mid_iteration_check_up.md
+    number: 117
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcTE
+  - title: '[262] [Feedback] Stakeholder Check-in: End-of-Semester'
+    source: issues/feedback-stakeholder-end_of_semester.md
+    number: 118
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcTU
+  - title: '[262] [Feedback] Stakeholder Check-in: Mid-Semester'
+    source: issues/feedback-stakeholder-mid_semester.md
+    number: 119
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcTk
+  - title: '[262] [Feedback] Stakeholder Check-in: Post-Demo 1'
+    source: issues/feedback-stakeholder-post_demo_1.md
+    number: 120
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcT4
+  - title: '[262] [Feedback] Stakeholder Check-in: Post-Demo 2'
+    source: issues/feedback-stakeholder-post_demo_2.md
+    number: 121
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcUY
+  - title: '[262] [Feedback] Stakeholder Check-in: Pre-Demo 1 (Early Warning)'
+    source: issues/feedback-stakeholder-pre_demo_1.md
+    number: 122
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcUk
+  - title: '[262] [Reading] Week 1 - Asking Good Questions'
+    source: issues/reading-week-01-asking-good-questions.md
+    number: 123
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcVA
+  - title: '[262] [Reading] Week 2 - Readme Driven Development'
+    source: issues/reading-week-02-readme-driven-development.md
+    number: 124
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcVc
+  - title: '[262] [Reading] Week 3 - The Grug Brained Developer'
+    source: issues/reading-week-03-grug-brained-developer.md
+    number: 125
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcVw
+  - title: '[262] [Reading] Week 4 - Clear is Better Than Clever'
+    source: issues/reading-week-04-clear-is-better-than-clever.md
+    number: 126
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcWI
+  - title: '[262] [Reading] Week 5 - Choose Boring Technology'
+    source: issues/reading-week-05-choose-boring-technology.md
+    number: 127
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcWU
+  - title: '[262] [Reading] Week 6 - Code Reviews Like a Human'
+    source: issues/reading-week-06-code-reviews-like-a-human.md
+    number: 128
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcWs
+  - title: '[262] [Reading] Week 7 - Easy to Delete, Not Easy to Extend'
+    source: issues/reading-week-07-easy-to-delete.md
+    number: 129
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcXA
+  - title: '[262] [Reading] Week 8 - Blameless Postmortems'
+    source: issues/reading-week-08-blameless-postmortems.md
+    number: 130
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcXM
+  - title: '[262] [Reading] Week 9 - The Open Source Contributor Funnel'
+    source: issues/reading-week-09-contributor-funnel.md
+    number: 131
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcXc
+  - title: '[262] [Reading] Week 10 - Good Enough'
+    source: issues/reading-week-10-good-enough.md
+    number: 132
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcXw
+  - title: '[262] [Reading] Week 11 - On Being A Senior Engineer'
+    source: issues/reading-week-11-senior-engineer.md
+    number: 133
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcYE
+  - title: '[262] [Reading] Week 12 - Career Launch'
+    source: issues/reading-week-12-career-launch.md
+    number: 134
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcYc
+  - title: '[262] [Sprint Check] Week 1 - Jan 26'
+    source: issues/sprint-check-01-jan-26.md
+    number: 135
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcYs
+  - title: '[262] [Sprint Check] Week 2 - Feb 2'
+    source: issues/sprint-check-02-feb-02.md
+    number: 136
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcZE
+  - title: '[262] [Sprint Check] Week 3 - Feb 9'
+    source: issues/sprint-check-03-feb-09.md
+    number: 137
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcZU
+  - title: '[262] [Sprint Check] Week 4 - Feb 16'
+    source: issues/sprint-check-04-feb-16.md
+    number: 138
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcZs
+  - title: '[262] [Sprint Check] Week 5 - Feb 23'
+    source: issues/sprint-check-05-feb-23.md
+    number: 139
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcaE
+  - title: '[262] [Sprint Check] Week 6 - Mar 2'
+    source: issues/sprint-check-06-mar-02.md
+    number: 140
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcaY
+  - title: '[262] [Sprint Check] Week 7 - Mar 16'
+    source: issues/sprint-check-07-mar-16.md
+    number: 141
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcak
+  - title: '[262] [Sprint Check] Week 8 - Mar 23'
+    source: issues/sprint-check-08-mar-23.md
+    number: 142
+    item_id: PVTI_lADOBit-m84BMoEbzgkbca0
+  - title: '[262] [Sprint Check] Week 9 - Mar 30'
+    source: issues/sprint-check-09-mar-30.md
+    number: 143
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcbI
+  - title: '[262] [Sprint Check] Week 10 - Apr 13'
+    source: issues/sprint-check-10-apr-13.md
+    number: 144
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcbg
+  - title: '[262] [Sprint Check] Week 11 - Apr 20'
+    source: issues/sprint-check-11-apr-20.md
+    number: 145
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcbo
+  - title: '[262] [Sprint Check] Week 12 - Apr 27'
+    source: issues/sprint-check-12-apr-27.md
+    number: 146
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcb4
+  - title: '[262] [Workshop] Week 1 - Jan 26'
+    source: issues/workshop-01-jan-26.md
+    number: 147
+    item_id: PVTI_lADOBit-m84BMoEbzgkbccU
+  - title: '[262] [Workshop] Week 2 - Feb 2'
+    source: issues/workshop-02-feb-02.md
+    number: 148
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcc4
+  - title: '[262] [Workshop] Week 3 - Feb 9'
+    source: issues/workshop-03-feb-09.md
+    number: 149
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcdM
+  - title: '[262] [Workshop] Week 4 - Feb 16'
+    source: issues/workshop-04-feb-16.md
+    number: 150
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcdc
+  - title: '[262] [Workshop] Week 5 - Feb 23'
+    source: issues/workshop-05-feb-23.md
+    number: 151
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcds
+  - title: '[262] [Workshop] Week 6 - Mar 2'
+    source: issues/workshop-06-mar-02.md
+    number: 152
+    item_id: PVTI_lADOBit-m84BMoEbzgkbcd4
+  - title: '[262] [Workshop] Week 7 - Mar 16'
+    source: issues/workshop-07-mar-16.md
+  - title: '[262] [Workshop] Week 8 - Mar 23'
+    source: issues/workshop-08-mar-23.md
+  - title: '[262] [Workshop] Week 9 - Mar 30'
+    source: issues/workshop-09-mar-30.md
+  - title: '[262] [Workshop] Week 10 - Apr 13'
+    source: issues/workshop-10-apr-13.md
+  - title: '[262] [Workshop] Week 11 - Apr 20'
+    source: issues/workshop-11-apr-20.md
+  - title: '[262] [Workshop] Week 12 - Apr 27'
+    source: issues/workshop-12-apr-27.md
+  access_granted: 1
+  access_details:
+  - username: kungfuchicken
+    role: admin
+    was_existing: false
+slack:
+  channels:
+  - name: csci-capstone-262
+    channel_id: C0A8S6E7VGS
+    is_private: true
+    instructors_invited: 1
+    students_invited: 54
+  unresolved_users:
+  - email: kwabenaadjei.omanhenegyimah@slu.edu
+    name: Omanhene-Gyimah, Kwabena Adjei
+    role: student
+assignments:
+  project_pre-registration: 705536
+  client_demo_feedback_2: 705522
+  checkpoint-retrospective_2_action_items: 705533
+  performance_evaluation-iteration_close_evaluation: 705542
+  sprint_5_close: 705540
+  checkpoint-retrospective_1_action_items: 705543
+  sprint_1_close: 705523
+  sprint_3_close: 705538
+  sprint_2_close: 705537
+  checkpoint-presentation_drafts: 705528
+  checkpoint-team_outing: 705530
+  sprint_6_close: 705531
+  code_review: 705535
+  performance_evaluation-mid_iteration_check_up: 705525
+  sse_showcase_registration: 705539
+  team_formation_onboarding: 705526
+  final_performance_evaluation: 705534
+  client_demo_feedback_1: 705544
+  excellence: 705529
+  sprint_4_close: 705541
+  checkpoint-retrospective_3_action_items: 705524
+  checkpoint-team_working_agreement: 705527
+  working_software: 705532
+  team_presentation: 705545
+pages:
+  scheduling_11s: performance-evaluation-scheduling-1-1s
+  sprint_structure_expectations: sprint-structure-and-expectations
+  open_source_conference_travel_stipend_program: open-source-conference-travel-stipend-program-2
+  guidelines_for_constructive_feedback_in_11_meetings: guidelines-for-constructive-feedback-in-1-1-meetings-2
+  client-based_project_abstracts: client-based-project-abstracts-2
+  reference_shelf: reference-shelf-2
+  details_about_the_slack_workspace: details-about-the-slack-workspace-2
+files:
+  welcome_presentation.pptx: 7443799
+  BLA3DE.pdf: 7443797
+  GMT20250821-160106_Recording_1920x1080.mp4: 7443798
