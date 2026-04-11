@@ -1,5 +1,5 @@
 ---
-title: "[Developer] Checkpoint - Poster Presentation Draft"
+title: "[Developer] Checkpoint - Presentation Draft"
 labels: ["developer"]
 due_date: "2026-04-13"
 assignment: "checkpoint-presentation_drafts"
@@ -7,13 +7,13 @@ assignment: "checkpoint-presentation_drafts"
 
 ## Description
 
-As an Instructor, I need to communicate SSE Undergraduate Showcase poster expectations so that Developers understand how to prepare professional presentations.
+As an Instructor, I need to communicate presentation expectations so that Developers understand how to prepare professional presentations for the end-of-semester events.
 
 ## Acceptance Criteria
 
-- [ ] Showcase format and expectations introduced in class
-- [ ] Poster design guidelines shared
-- [ ] Trade fair booth setup explained
+- [ ] Presentation format and expectations introduced in class
+- [ ] Format-specific guidelines shared (poster or slide deck, depending on semester)
+- [ ] Demo strategy expectations explained
 - [ ] Trial run opportunities coordinated
 - [ ] Questions answered / office hours available
 - [ ] Deadline communicated
@@ -23,8 +23,6 @@ As an Instructor, I need to communicate SSE Undergraduate Showcase poster expect
 
 Due: April 13, 2026
 
-**Developer responsibility**: Draft poster design and content, prepare presentation script with speaker assignments, conduct trial run, prepare live demos, submit materials for feedback.
-
-This is an undergraduate showcase, so Developers are responsible for this checkpoint. Graduate students are welcome to participate.
+**Developer responsibility**: Draft presentation content and demo strategy, prepare live demos, submit materials for feedback. The specific format (poster content or slide deck outline) depends on the semester.
 
 See `assignments/checkpoint-presentation_drafts.md` for full details.

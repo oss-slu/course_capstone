@@ -6,7 +6,7 @@ due_date: "2026-04-13"
 
 ## Description
 
-**Teams** prepare poster presentations and demo materials so that the SSE Undergraduate Showcase represents their best work.
+**Teams** prepare presentations and demo materials so that the end-of-semester events represent their best work.
 
 **Instructor** reviews draft materials and monitors preparation discussions so that teams have feedback before the showcase.
 
@@ -27,8 +27,8 @@ due_date: "2026-04-13"
 
 Week: 10 (Sprint 5 Close)
 
-**Discussion Focus:** Poster design, demo flow, speaker coordination, trial runs.
+**Discussion Focus:** Presentation content, demo flow, speaker coordination, trial runs.
 
 **Observable in:** Slack team channels, Canvas draft submissions, GitHub documentation updates.
 
-**Activity tie-in:** Checkpoint - Poster Presentation Draft, Sprint 5 Close.
+**Activity tie-in:** Checkpoint - Presentation Draft, Sprint 5 Close.

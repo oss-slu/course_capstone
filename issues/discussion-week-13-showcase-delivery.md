@@ -6,7 +6,7 @@ due_date: "2026-04-30"
 
 ## Description
 
-**Teams** deliver presentations at the SSE Undergraduate Showcase so that their work reaches stakeholders and the university community.
+**Teams** deliver presentations at the Public Showcase so that their work reaches stakeholders and the university community.
 
 **Instructor** attends showcase, observes presentations, and gathers feedback so that evaluation incorporates live delivery.
 
@@ -28,7 +28,7 @@ due_date: "2026-04-30"
 
 Date: April 30, 2026
 
-**Discussion Focus:** Presentation delivery, stakeholder Q&A, celebrating accomplishments.
+**Discussion Focus:** Presentation delivery, stakeholder Q&A, celebrating accomplishments. Teams should note feedback to incorporate before Launch Day.
 
 **Observable in:** Live showcase, Slack post-event discussion.
 
