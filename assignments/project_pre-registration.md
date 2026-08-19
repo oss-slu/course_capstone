@@ -1,7 +1,7 @@
 ---
 title: Project Pre-Registration
 points_possible: 1.0
-due_at: 2026-01-14T22:00:00Z
+due_at: 2026-08-21T21:00:00Z
 submission_types:
 - none
 published: true

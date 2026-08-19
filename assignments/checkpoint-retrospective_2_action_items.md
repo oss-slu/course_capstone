@@ -1,8 +1,8 @@
 ---
 title: 'Checkpoint - Retrospective #2 Action Items'
 points_possible: 1.0
-due_at: 2026-03-31T05:00:00Z
-unlock_at: 2026-03-30T21:00:00Z
+due_at: 2026-10-27T05:00:00Z
+unlock_at: 2026-10-26T21:00:00Z
 submission_types:
 - online_text_entry
 published: true
