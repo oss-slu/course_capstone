@@ -133,7 +133,7 @@ modules:
   - name: Iteration 1
     items:
       - name: Milestone 1
-        type: Assignment
+        type: label
       - name: Performance Evaluation - Iteration Check-Up
         type: assignment
         due_date: '2026-10-09T21:00:00Z'
@@ -196,7 +196,7 @@ modules:
   - name: Iteration 2
     items:
       - name: Milestone 2
-        type: Assignment
+        type: label
       - name: Performance Evaluation - Iteration Check-Up
         type: assignment
         due_date: '2026-12-04T22:00:00Z'
