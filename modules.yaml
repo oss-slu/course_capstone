@@ -49,6 +49,9 @@ modules:
       - name: Sprint Structure & Expectations
         type: content
         content: sprint_structure_expectations.md
+      - name: Exception Reports
+        type: content
+        content: exception_reports.md
   - name: Sprint 0
     items:
       - name: "Sprint 0: Jan 13 - Jan 26"
@@ -165,7 +168,7 @@ modules:
       # - name: "{ weekly_video_9_title }"
       #   type: link
       #   link: { weekly_video_9_link }
-      - name: Checkpoint - Poster Presentation Draft
+      - name: Checkpoint - Presentation Draft
         type: assignment
         due_date: '2026-04-13T21:00:00Z'
         assignment: checkpoint-presentation_drafts
@@ -211,6 +214,15 @@ modules:
       # - name: Launch Preparation Checklist
       #   type: file
       #   file: launch_preparation_checklist.pdf
+
+      - name: Presentation Formats
+        type: label
+      - name: Slide Deck Presentation (Fall)
+        type: content
+        content: slide_deck_presentation.md
+      - name: Poster Session Presentation (Spring)
+        type: content
+        content: poster_session_presentation.md
 
       - name: Deliverables
         type: label
