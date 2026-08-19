@@ -5,184 +5,237 @@ published: true
 front_page: false
 ---
 
-# Note: New projects are indicated with an asterisk "\*" after their name.
+# Fall 2026 Teams and Products
 
-## BAIO
+**New this semester:** teams are organized around a shared theme and support
+**multiple related products** rather than a single one. You join a *team*, not a
+product. Your Tech Lead allocates work across the team's products, and you can
+expect to contribute to more than one over the semester.
 
-### Bioinformatics AI for Open-set detection ###
+Each team runs 6 to 7 people including the Tech Lead.
 
-**Target team size: 2**
+New products are marked with an asterisk "\*".
 
-BAIO is a metagenomic analysis platform that leverages foundation models for DNA sequence analysis. Unlike traditional reference-based pipelines, BAIO can detect novel and divergent pathogens through open-set recognition methods, making it valuable for pandemic preparedness, clinical diagnostics, and environmental surveillance research.
+---
 
-## CivicKit\*
+## OSS DevSecOps (DSO)
 
-### (formerly Urbanista) ###
+Internal services supporting every open source project at SLU, with active
+contribution to Linux Foundation sponsored projects. Strong fit if you want
+platform and operations experience rather than application development.
 
-**Target team size: 2**
+### OSS DevEx\*
 
-CivicKit is an open-source platform for geospatial reporting and coordination of local civic issues, enabling community visibility and action through mobile and web interfaces. The platform empowers residents to document problems in their local urban landscape, coordinate improvements, and engage with their communities to create positive change.
+*(formerly OSS Automation)*
 
-## CoreDesk
+Developer experience tooling for open source projects developed at SLU, including
+continuous integration and deployment pipelines, automated testing, and release
+management. The team contributes to Linux Foundation sponsored CI/CD open source
+projects, establishing industry relationships while advancing automation
+capabilities.
 
-### (formerly SLU Open Project) ###
+### OSS Cybersecurity
 
-**Target team size: 2**
+Cybersecurity services for open source projects developed at SLU, including
+security assessments, vulnerability scanning, and best practices guidance. The
+team contributes to external Linux Foundation sponsored projects in the security
+domain, building professional industry connections while supporting the broader
+security ecosystem.
 
-CoreDesk is a web-based work management tool that enables shared service providers in universities and similar contexts. Originally built to support the SLU Center for Additive Manufacturing (SLU-CAM), the platform is expanding to support various use cases in collaborative work environments and resource management.
+### OSS Infrastructure
 
-## CV Zebrafish\*
+Infrastructure and operations support for open source projects developed at SLU,
+including shared development environments, infrastructure as code, instrumentation
+for observability, and development observability services. The team contributes to
+Linux Foundation sponsored infrastructure projects.
 
-**Target team size: 2**
+---
 
-This project develops interactive and user-friendly software to track and analyze zebrafish body parts and movements from large datasets, generating metrics including speed, fin angles, and phase synchronization. The modular software processes high-resolution imaging data and interfaces with machine learning tools like DeepLabCut to provide comprehensive behavioral analysis for neuroscience and genetics research.
+## Analytics & Data Visualization (ADV)
 
-## DADS\*
+Data analytics, metrics, and visualization work spanning internal program needs and
+university operations. Strong fit if you want data engineering and visualization
+experience.
 
-### Database of Arithmetic Dynamical Systems ###
+### OSS Analytics
 
-**Target team size: 2**
+*(formerly OSS Metrics)*
 
-DADS is a flexible, web-based, search-driven user interface for a database of information about a class of mathematical functions known as arithmetic dynamical systems. The platform provides researchers and mathematicians with tools for exploring, querying, and analyzing dynamical systems data.
+Developer analytics and general data analytics support for open source projects
+developed at SLU. The team contributes to CHAOSS sponsored open source projects in
+the data analytics space, advancing data science capabilities and promoting best
+practices in analytics workflows.
 
-## Digital Bone Box
+### ORB\*
 
-**Target team size: 2**
+**Open Source Repository Browser.** A collaboration with UC Santa Cruz, adapting a
+PhD research project into a set of web-native dashboards.
 
-DBB is a web application for displaying and editing sets of annotated anatomical images. The project started with a set of annotated human bones and provides researchers and educators with tools for interactive anatomical study and documentation.
+### Enrollment Dashboards\*
 
-## Drone World
+An internal services engagement with SLU Enrollment Services, building dashboards
+over university administrative data.
 
-**Target team size: 2**
+---
 
-Drone World is a comprehensive platform for testing small unmanned aerial systems (sUAS) applications by simulating realistic test scenarios based on specified requirements. The platform enables developers and researchers to validate drone applications in controlled virtual environments before real-world deployment.
+## Software for Higher Education (SHE)
 
-## GradEval360\*
+Applications built for university clients, each addressing an administrative or
+service workflow. Strong fit if you want full-stack product work with direct client
+contact.
 
-**Target team size: 2**
+### CoreDesk
 
-GradEval360 is a centralized, single-sign-on web platform designed to standardize the Graduate Assistant experience by providing a university-wide, developmental three-part annual performance workflow. The system facilitates equitable mentoring relationships through structured expectation-setting, mid-year check-ins, and end-of-year performance reviews, while enabling customizable evaluation forms and centralized administrative oversight.
+*(formerly SLU Open Project)*
 
-## IRIS - Image Recognition Integration System
+A web-based work management tool for shared service providers in universities and
+similar contexts. Originally built to support the SLU Center for Additive
+Manufacturing, the platform is expanding to support additional print-shop and
+collaborative service use cases across SLU CAM and ITS.
 
-**Target team size: 2**
+### GradEval360
 
-IRIS is a framework for creating custom mobile applications that can handle specialized image search problems. The framework was developed to create applications that use custom AI models to identify details about orthopedic screws from x-ray images of patients, demonstrating practical applications of computer vision in medical imaging.
+A centralized, single-sign-on web platform that standardizes the Graduate Assistant
+experience through a university-wide, developmental three-part annual performance
+workflow. The system facilitates equitable mentoring relationships through
+structured expectation setting, mid-year check-ins, and end-of-year performance
+reviews, with customizable evaluation forms and centralized administrative
+oversight.
 
-## MaterialDerailleur
+### Legal Clinic Intake\*
 
-### (formerly Material Donor Mutual Assist) ###
+A new engagement with the SLU School of Law. The project builds an intake portal for
+the legal clinic, handling client intake workflows and case routing. Requirements are
+being defined with the client during Sprint Zero.
 
-**Target team size: 2**
+---
 
-The MaterialDerailleur project simplifies donation management by allowing donors to track their contributions from donation to use, fostering trust and encouraging ongoing support. This platform creates transparency in the donation process while building stronger relationships between donors and recipient organizations.
+## Simulations (SIM)
 
-## Mithridatium\*
+Immersive and visualization-heavy software for education and clinical planning.
+Strong fit if you want 3D, VR, or medical imaging experience.
 
-**Target team size: 2**
+### MechatronicsVR
 
-Mithridatium develops ML/AI model verification and poisoning detection tools that translate complex academic research into simple, actionable tools for developers. The platform provides security-focused capabilities for detecting and preventing AI model compromise, available as web applications, command-line tools, and IDE plugins to enhance developer security workflows.
+*(formerly VR Robotics)*
 
-## MORPH\*
+An immersive virtual reality learning platform for mechatronics education. The
+system allows students to assemble and disassemble 3D DC motor components, visualize
+invisible elements like magnetic fields and current flow, and explore real-world
+applications of mechatronic systems in an interactive educational environment.
 
-### (formerly SMARTRobot) ###
+### PAO Surgery Simulator
 
-**Target team size: 2**
+3D visualization software for CT DICOM files that can be manipulated to simulate
+different types of pelvic osteotomy procedures. The system enables surgeons to
+perform virtual osteotomies and calculate radiographic measures to determine optimal
+surgical approaches, supporting personalized surgical planning and improved patient
+outcomes.
 
-MORPH is a collection of educational robotics kits, software modules, lesson plans, learning materials, and a platform that makes them simple to use. The project is developing as an entrepreneurship venture focused on making robotics education accessible and engaging for students and educators.
+---
 
-## Mouser
+## Digital Public Goods (DPG)
 
-**Target team size: 2**
+Products serving research communities and the public good, from ethnographic field
+research to donation logistics and volunteer coordination. Strong fit if you want
+work with clear social impact and real external users.
 
-Mouser is a desktop application designed for tracking and managing data from animal experiments. The software provides researchers with tools for comprehensive experimental data management, ensuring proper documentation and analysis of laboratory animal studies.
+### Where's Religion
 
-## O'Care\*
+Desktop and mobile applications for ethnographers studying "Lived Religion." The
+mobile app enables field researchers to capture events with audio and visual
+documentation, while the desktop web application provides tools for detailed
+reflection and analysis of captured data, supporting comprehensive ethnographic
+research workflows.
 
-### (formerly TheHealthApp) ###
+### MaterialDerailleur
 
-**Target team size: 2**
+*(formerly Material Donor Mutual Assist)*
 
-O'Care enables basic AI-powered health assessments, connects patients with healthcare services, and gives patients simple and secure access to their health data. The platform aims to improve healthcare accessibility through intelligent technology and user-friendly interfaces.
+Simplifies donation management by allowing donors to track their contributions from
+donation to use, fostering trust and encouraging ongoing support. The platform
+creates transparency in the donation process while building stronger relationships
+between donors and recipient organizations.
 
-## OSS Automation\*
+### Shelter Volunteer
 
-**Target team size: 2**
+*(also Shelter Volunteers Rapid Response)*
 
-OSS Automation provides continuous integration and continuous deployment (CI/CD) services to open source projects developed at SLU, including automated testing, deployment pipelines, and release management. The team actively contributes to Linux Foundation-sponsored CI/CD open-source projects, establishing industry relationships while advancing automation capabilities.
+Simplifies the process of scheduling work shifts for volunteers and provides
+homeless shelters with visibility into their upcoming staffing needs. The platform
+addresses critical coordination challenges in volunteer management while ensuring
+consistent support services for vulnerable populations.
 
-## OSS Cybersecurity\*
+---
 
-**Target team size: 2**
+## Health & Wellness (H&W)
 
-OSS Cybersecurity provides cybersecurity services to open source projects developed at SLU, including security assessments, vulnerability scanning, and best practices guidance. The team contributes to external open-source projects sponsored by the Linux Foundation in the cybersecurity domain, building professional industry connections while supporting the broader security ecosystem.
+Health, anatomy, and clinical communication products. Strong fit if you want to work
+on software with patient-facing or clinical-education stakes.
 
-## OSS Infrastructure\*
+### Digital Bone Box
 
-**Target team size: 2**
+A web application for displaying and editing sets of annotated anatomical images.
+The project started with a set of annotated human bones and provides researchers and
+educators with tools for interactive anatomical study and documentation.
 
-OSS Infrastructure provides infrastructure and operations support for open source projects developed at SLU, including shared development environments, infrastructure as code support, instrumentation for observability, and development observability services. The team contributes to Linux Foundation-sponsored open-source infrastructure projects, building valuable industry connections while enhancing operational capabilities.
+### Saltify Speech Transcription
 
-## OSS Metrics\*
+Transcribes audio samples into a written format compatible with SALT (Systematic
+Analysis of Language Transcripts) software. This tool supports speech-language
+pathologists and researchers in analyzing linguistic patterns and communication
+disorders.
 
-**Target team size: 2**
+### TheHealthApp
 
-OSS Metrics provides developer analytics and general data analytics support to open source projects developed at SLU. The team actively contributes to CHAOSS-sponsored open-source projects in the data analytics space, fostering industry relationships while advancing data science capabilities and promoting best practices in analytics workflows.
+Enables basic AI-powered health assessments, connects patients with healthcare
+services, and gives patients simple and secure access to their health data. The
+platform aims to improve healthcare accessibility through intelligent technology and
+user-friendly interfaces.
 
-## PAO Surgery Simulator\*
+---
 
-**Target team size: 2**
+## MithraDAT (Mithridat)
 
-This project develops 3D visualization software for CT DICOM files that can be manipulated to simulate different types of pelvic osteotomy procedures. The system enables surgeons to perform virtual osteotomies and calculate radiographic measures to determine optimal surgical approaches, supporting personalized surgical planning and improved patient outcomes.
+*(formerly Mithridatium)*
 
-## Pilot Data Sync
+A single-product team. MithraDAT develops ML and AI model verification and poisoning
+detection tools that translate complex academic research into simple, actionable
+tools for developers. The platform provides security-focused capabilities for
+detecting and preventing AI model compromise, available as web applications,
+command-line tools, and IDE plugins.
 
-**Target team size: 2**
+Strong fit if you want depth on one product and interest in ML security.
 
-PDS establishes a real-time data synchronization channel between flight simulators and the iMotions platform, enabling accurate capture and analysis of critical flight data to enhance pilot performance evaluation. The system supports aviation research and training by providing seamless data integration capabilities.
+---
 
-## Rerum Playground
+## RAISE
 
-**Target team size: 2**
+**Research AI Software Engineering.** Research software with a strong AI component,
+supporting active laboratory and simulator work. Strong fit if you want to build
+tools that researchers use directly and want hands-on machine learning exposure.
 
-Rerum Playground is a webspace with tools to interact with objects that may exist in Rerum and all over the internet. It provides a designer's framework for non-destructive annotation and template rendering for distributed digital resources and collections. The Rerum platform enables researchers and scholars to create rich, interconnected data annotations while preserving the integrity of original digital materials.
+### CV Zebrafish
 
-## Rerum Server\*
+Interactive software to track and analyze zebrafish body parts and movements from
+large datasets, generating metrics including speed, fin angles, and phase
+synchronization. The modular software processes high-resolution imaging data and
+interfaces with machine learning tools like DeepLabCut to provide comprehensive
+behavioral analysis for neuroscience and genetics research.
 
-**Target team size: 2**
+### Pilot Data Synchronization
 
-Rerum Server is the community server implementation of the RERUM annotation services. It provides a public API for creating, storing, and retrieving Web Annotations and linked data objects, enabling researchers and digital humanities projects to build annotation-based applications on an open infrastructure.
+Establishes a real-time data synchronization channel between flight simulators and
+the iMotions platform, enabling accurate capture and analysis of critical flight data
+to enhance pilot performance evaluation. The system supports aviation research and
+training through seamless data integration.
 
-## Shelter Volunteers Rapid Response
+---
 
-**Target team size: 2**
+## CS Research (Letscher)
 
-This project simplifies the process of scheduling work shifts for volunteers and provides homeless shelters with visibility into their upcoming staffing needs. The platform addresses critical coordination challenges in volunteer management while ensuring consistent support services for vulnerable populations.
+A faculty-mentored research group working with Dr. Letscher rather than a student
+Tech Lead. This team delivers an academic conference talk at the end of the semester
+rather than the boardroom presentation other teams give.
 
-## Speech Transcription
-
-### (formerly Saltify Speech Tagging) ###
-
-**Target team size: 2**
-
-Speech Transcription software transcribes audio samples into a written format that is compatible with SALT (Systematic Analysis of Language Transcripts) software. This tool supports speech-language pathologists and researchers in analyzing linguistic patterns and communication disorders.
-
-## STL Metro Data API\*
-
-**Target team size: 2**
-
-This project creates a unified API that serves as a proxy for regional and popular public data services, with a primary focus on St. Louis City data. The platform exposes standardized data access to researchers, journalists, and policy-makers through direct API interaction and web-mediated interfaces that generate datasets and interactive reports with graphs and charts.
-
-## VR Mechatronics\*
-
-### (formerly VR Robotics) ###
-
-**Target team size: 2**
-
-VR Mechatronics creates an immersive virtual reality learning platform for mechatronics education. The system allows students to assemble and disassemble 3D DC motor components, visualize invisible elements like magnetic fields and current flow, and explore real-world applications of mechatronic systems in an interactive educational environment.
-
-## Where's Religion (Desktop & Mobile)
-
-**Target team size: 2**
-
-Where's Religion comprises both desktop and mobile applications for ethnographers studying 'Lived Religion.' The mobile app enables field researchers to capture events with audio/visual documentation, while the desktop web application provides tools for detailed reflection and analysis of captured data, supporting comprehensive ethnographic research workflows.
+Participants are pre-selected. This group is not part of team selection.
