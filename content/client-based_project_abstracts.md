@@ -234,8 +234,67 @@ training through seamless data integration.
 
 ## CS Research (Letscher)
 
-A faculty-mentored research group working with Dr. Letscher rather than a student
-Tech Lead. This team delivers an academic conference talk at the end of the semester
-rather than the boardroom presentation other teams give.
+A faculty-mentored research group working with Dr. David Letscher and Dr. Cody
+Gilbert rather than a student Tech Lead. This team delivers an academic conference
+talk at the end of the semester rather than the boardroom presentation other teams
+give.
+
+This project explores connections between machine learning and quiver representation
+theory via the observation that every feedforward neural network defines a
+representation of a type A_n quiver. Under this interpretation, training a neural
+network defines a path in the corresponding representation variety. As such, there
+are deep connections between quiver representation theory and machine learning that
+remain largely unexplored. For example, Dr. Gilbert has shown that transformations
+along arrows of certain extended representations encode the forward pass, the
+backward pass, and the gradient of the neural network. The goal is to further unify
+ideas from representation theory, homological algebra, and machine learning using
+this new interpretation and to test the applicability of this theory through
+experimentation.
 
 Participants are pre-selected. This group is not part of team selection.
+
+---
+
+## Potential Teams
+
+The teams below **may or may not run this semester**. Confirmation will not come until
+shortly before class on Monday.
+
+Because they are unconfirmed, they are **not part of the regular stack rankings**. The
+pre-registration form has a separate option for indicating interest in them. Selecting
+it does not affect your ranked preferences for the confirmed teams above, and leaving
+it unselected costs you nothing.
+
+### HPC
+
+Two related projects targeting SLU's high-performance computing cluster. The eARM
+Pipeline stands up a molecular modeling workflow that screens rhodopsin-like
+photoreceptors for fluorescent mutants, chaining together modeling and simulation
+tools coordinated by pyARM. The HPC RAG Agent Chatbot uses Retrieval-Augmented
+Generation to help researchers interact with HPC resources, integrating cluster
+documentation, schedulers, and real-time system data. The work suits students
+interested in scientific computing, job scheduling, and reproducible environments
+rather than conventional application development.
+
+### Rerum
+
+RERUM is a JSON-LD annotation and digital object storage system serving the digital
+humanities, storing Web Annotations, IIIF objects, and arbitrary JSON with full
+versioning and immutable release management. Work this semester would focus on two
+areas. The API update covers test coverage across route handlers, pagination for
+large result sets, and database connection health checks. The Playground is a web
+space for creating reusable JSON-LD objects that conform to IIIF and Web Annotation
+standards, with tools for transcription, annotation, and geolocation. The work suits
+students interested in linked data standards and backend API development.
+
+### Research Software Engineering (RSE)
+
+Two tools built directly for SLU researchers. DADS, the Database of Arithmetic
+Dynamical Systems, is a search-driven web interface over a database of arithmetic
+dynamical systems, letting mathematicians locate examples with specific properties,
+examine collective statistics across filtered sets, and export results for further
+analysis. Mouser is a desktop application for collecting and analyzing animal
+experiment data, connecting lab equipment such as balances, calipers, and RFID chip
+readers to a PC so researchers can take repeated measurements without touching a
+keyboard or mouse in a clean lab environment. The work suits students interested in
+building software that researchers depend on daily. If interested in joining this team, please let your Capstone instructor know directly.
