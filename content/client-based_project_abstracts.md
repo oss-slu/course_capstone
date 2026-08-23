@@ -251,7 +251,7 @@ ideas from representation theory, homological algebra, and machine learning usin
 this new interpretation and to test the applicability of this theory through
 experimentation.
 
-Participants are pre-selected. This group is not part of team selection.
+Participants are pre-selected. This group is not part of team selection. If interested in joining this team, please let your Capstone instructor know directly.
 
 ---
 
@@ -297,4 +297,4 @@ analysis. Mouser is a desktop application for collecting and analyzing animal
 experiment data, connecting lab equipment such as balances, calipers, and RFID chip
 readers to a PC so researchers can take repeated measurements without touching a
 keyboard or mouse in a clean lab environment. The work suits students interested in
-building software that researchers depend on daily. If interested in joining this team, please let your Capstone instructor know directly.
+building software that researchers depend on daily.
