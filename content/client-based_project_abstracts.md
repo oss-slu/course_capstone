@@ -102,11 +102,13 @@ structured expectation setting, mid-year check-ins, and end-of-year performance
 reviews, with customizable evaluation forms and centralized administrative
 oversight.
 
-### Legal Clinic Intake\*
+### TULIP\*
 
-A new engagement with the SLU School of Law. The project builds an intake portal for
-the legal clinic, handling client intake workflows and case routing. Requirements are
-being defined with the client during Sprint Zero.
+*(Trusted Unified Legal Intake Portal)*
+
+A collaboration between the SLU Legal Clinics Program and OSS. TULIP is a unified
+intake platform for the legal clinics, securely storing encrypted client data while
+monitoring form conflicts and case-management workflows.
 
 ---
 

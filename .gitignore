@@ -68,3 +68,6 @@ tmp/
 # Rosters
 roster-*.csv
 rosters/
+# Softlink to instructor presentation sources (BLA3DE decks, syllabus source).
+# Lives outside the repo; large binaries not tracked here.
+resources
