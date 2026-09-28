@@ -5,7 +5,7 @@ due_at: '2026-09-30T21:00:00Z'
 submission_types:
 - online_text_entry
 published: false
-assignment_group: "Checkpoints"
+assignment_group: "Assignments"
 grading_type: pass_fail
 ---
 
