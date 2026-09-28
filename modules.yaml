@@ -123,6 +123,10 @@ modules:
         type: assignment
         due_date: '2026-09-29T05:00:00Z'
         assignment: checkpoint-retrospective_1_action_items
+      - name: "Onboarding: Commit Identity"
+        type: assignment
+        due_date: '2026-09-30T21:00:00Z'
+        assignment: checkpoint-commit_identity
       # - name: "{ weekly_video_6_title }"
       #   type: link
       #   link: { weekly_video_6_link }
