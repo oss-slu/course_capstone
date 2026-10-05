@@ -68,6 +68,12 @@ tmp/
 # Rosters
 roster-*.csv
 rosters/
+
+# Confidential storage tier: fetched submissions, feedback, evaluations.
+# Declared as `storage.confidential` in activity.yaml, so `mostidy course
+# feedback fetch` writes FERPA-protected student work here. Nothing was
+# ignoring it, and this repository is on GitHub.
+confidential/
 # Softlink to instructor presentation sources (BLA3DE decks, syllabus source).
 # Lives outside the repo; large binaries not tracked here.
 resources

@@ -1,0 +1,241 @@
+# Fall 2026 activity configuration: Software Engineering Capstone.
+#
+# Read by `ActivityConfig::load` (MosTidy `src/domain/activity_config.rs`), which
+# every `mostidy course` task calls before doing anything else. Without this file
+# those commands stop with "run 'course init' first".
+#
+# This file and `course-info.yaml` state some of the same facts. They are not
+# redundant: `course-info.yaml` drives provisioning (Canvas content, GitHub
+# project, Slack channels), while this file is the universal activity config the
+# feedback phase reads. Where they overlap, they were made to agree by hand, and
+# the Canvas course id and sprint dates below were copied from it deliberately.
+
+activity:
+  kind: course
+  title: "Software Engineering Capstone"
+  term: "Fall 2026"
+  section: "01"
+  # Informational. All three catalog numbers meet as one section.
+  cross_listed:
+    - "CSCI-4961-01"
+    - "CSCI-4962-01"
+    - "CSCI-5960-01"
+
+# Permission levels per provider category, used when provisioning access.
+# Categories are limited to lms, vcs, chat and projects; anything else fails
+# validation. Levels are none, read, write, admin.
+#
+# `developer` rather than `student`, matching the roster and the role key under
+# `feedback.roles_baselines`. Levels follow what `course-info.yaml` already
+# provisions: students get read on the course repositories and on the project
+# board (`github.project.student_role: read`), and write in Slack.
+roles:
+  instructor:
+    permissions:
+      lms: admin
+      vcs: admin
+      chat: admin
+      projects: admin
+  developer:
+    permissions:
+      lms: read
+      vcs: read
+      chat: write
+      projects: read
+
+providers:
+  # Verified against Canvas on 2026-10-05: course 92754 is
+  # "Capstone Project I - 01 (Fall 2026)", enrollment term 1164.
+  # Spring 2026 was course 83690, term 1069. The two share a `name`
+  # ("CSCI-4961-01"), so `course_code` or the term id is what tells them apart.
+  lms:
+    type: canvas
+    course_id: 92754
+
+  # No `vcs` binding yet, on purpose. `feedback activity` would measure
+  # engagement against whatever repositories are listed here, and the product
+  # repositories are per-team. `course-info.yaml` lists only the course material
+  # repos (course_capstone, handbook_developer, guidebook_tech_debt); pointing
+  # the feedback phase at those would report every developer's contribution as
+  # near zero. The `vcs` binding and `teams` belong in the same change as the
+  # real team-to-repository assignments.
+
+storage:
+  content: ./content/
+  confidential: ./confidential/
+
+# One entry per iteration. "Iteration" is MosTidy's word for the two-week cycle
+# the course calls a sprint; the course reserves "iteration" for its two
+# Milestones, so the vocabulary is inverted between the two files. These are the
+# sprints.
+#
+# Eight windows, 0 through 7, copied from `course-info.yaml` and matching
+# `MosTidy/fall-2026-config.yaml`. Boundaries fall on Mondays and each window's
+# end is the next one's start. Only sprints 1 through 6 have a Sprint Close
+# assignment: sprint 0 is team formation and onboarding, sprint 7 is Launch.
+cadence:
+  - number: 0
+    name: Sprint Zero
+    starts: "2026-08-19"
+    ends: "2026-08-31"
+
+  - number: 1
+    starts: "2026-08-31"
+    ends: "2026-09-14"
+
+  - number: 2
+    starts: "2026-09-14"
+    ends: "2026-09-28"
+
+  - number: 3
+    starts: "2026-09-28"
+    ends: "2026-10-12"
+
+  - number: 4
+    starts: "2026-10-12"
+    ends: "2026-10-26"
+
+  - number: 5
+    starts: "2026-10-26"
+    ends: "2026-11-09"
+
+  - number: 6
+    starts: "2026-11-09"
+    ends: "2026-11-23"
+
+  - number: 7
+    name: Launch
+    starts: "2026-11-23"
+    ends: "2026-12-07"
+
+feedback:
+  # The course states one baseline and only one: "At minimum, you are expected to
+  # complete one full PR cycle per sprint - from Issue assignment through merged
+  # code" (content/sprint_structure_expectations.md). Nothing else is declared,
+  # and an undeclared measure stays an indicator rather than becoming a bar.
+  #
+  # Only developers submit in this course. The tech lead sprint close lives in
+  # course_dossp and carries no artifact, so no tech_lead baseline is set here.
+  roles_baselines:
+    developer:
+      pull_requests: 1
+      merged_pull_requests: 1
+
+  # What a Sprint Close submission is expected to be.
+  #
+  # Every value below is quoted from assignments/sprint_1_close.md, which is
+  # byte-identical to sprint_2 through sprint_6 in all of these respects. The six
+  # files differ only in title, due date, and the sprint number in one sentence.
+  #
+  # Absent means "not declared", never "zero" and never a default. Two norms are
+  # omitted for exactly that reason and the omissions are deliberate; see below.
+  norms:
+    # "Upload a short video (2-3 minutes preferred, 5 minutes maximum)".
+    duration_max_seconds: 300
+    duration_preferred_seconds: [120, 180]
+
+    # "Submit two items: one demo video and one written report." Both sections
+    # are headed "(Required)". The work log is explicitly "(Optional)".
+    artifacts_required: [video, report]
+
+    # "Direct upload to Canvas (MP4, MOV, WEBM, MKV, OGG)" and "YouTube or Vimeo
+    # link (unlisted is fine)". The assignment then names what is not allowed:
+    # "Do not submit via Slack DM, email, or shared folder links." A Drive or
+    # Dropbox link is a shared folder link, so `google_drive` is left out and
+    # will be observed as unsanctioned, which is what the assignment says.
+    #
+    # `lms_upload`, not `canvas_upload`: the domain does not know which LMS the
+    # activity is bound to.
+    posting_channels_allowed:
+      - lms_upload
+      - youtube
+      - vimeo
+
+    # "Minimum: 1 merged PR". The assignment also says "Expected: Multiple PRs",
+    # but attaches no number to "multiple", so the floor is the only value here.
+    report_min_pr_urls: 1
+
+    # "Sprint Reflection (~500-750 words)". The tilde is the assignment's own
+    # hedge, and the band is informational, so a 760-word reflection is a
+    # remark rather than a failure.
+    reflection_word_range: [500, 750]
+
+    # OMITTED, and not an oversight:
+    #
+    #   min_resolution_height
+    #   require_audio_stream
+    #
+    # The assignment says nothing about resolution, audio, narration, or screen
+    # recording quality. Not a looser rule, not a different number: silent. The
+    # only place in this course that asks for "clear audio" is
+    # content/slide_deck_presentation.md, a different deliverable.
+    #
+    # Declaring either one would flag developers against a number nobody in the
+    # course ever wrote down, which is the failure `submission_norms.rs`
+    # documents in its own words: "absent is not permissive ... a built-in
+    # default that flags students against a number nobody in the course ever
+    # wrote down ... reads to the student as a rule they broke."
+    #
+    # MosTidy's `parses_the_capstone_norms_from_config` test does set both
+    # (480 and true). That fixture is not sourced from this assignment. If the
+    # course decides it wants a resolution floor or required narration, the
+    # assignment text is the place to say so first, and then this file follows.
+
+  # `observation_severity` is not set, so every observation is informational and
+  # none prompts for an Exception Report. That is the right default until a real
+  # run shows which departures are worth escalating.
+
+# ---------------------------------------------------------------------------
+# NOT READ BY ANY CODE. DO NOT ASSUME THIS IS WIRED.
+#
+# `ActivityConfig` does not set `deny_unknown_fields`, so this block parses and
+# is then discarded in silence. No `checkpoints` schema is implemented anywhere:
+# it is not on MosTidy main, and the approved unified feedback plan that
+# specifies it has no implementation branch. The shape below is this file's own
+# invention and will likely change when the real schema lands.
+#
+# The ids are recorded here because they are a verified fact that otherwise
+# lives nowhere in version control. Until the wiring exists, fetching a sprint
+# close means naming the assignment by hand:
+#
+#   mostidy course feedback . fetch -a 784251
+#
+# Fetched from Canvas course 92754 on 2026-10-05. All six are published. Note
+# the ids are NOT in sprint order: sprint 5 is 784268 and sprint 6 is 784259, so
+# deriving one from another, or reusing the Spring 2026 ids in
+# provision_manifest.yaml (705523-705531, course 83690), would silently pair an
+# iteration with the wrong assignment.
+#
+# `due_at` is 16:00 America/Chicago throughout; the UTC hour shifts from 21:00
+# to 22:00 at sprint 5 because of the 1 November daylight saving change.
+# ---------------------------------------------------------------------------
+checkpoints:
+  - iteration: 1
+    assignment_id: 784251
+    name: "Sprint 1 Close: Developer Contribution Report"
+    due_at: "2026-09-14T21:00:00Z"
+
+  - iteration: 2
+    assignment_id: 784265
+    name: "Sprint 2 Close: Developer Contribution Report"
+    due_at: "2026-09-28T21:00:00Z"
+
+  - iteration: 3
+    assignment_id: 784266
+    name: "Sprint 3 Close: Developer Contribution Report"
+    due_at: "2026-10-12T21:00:00Z"
+
+  - iteration: 4
+    assignment_id: 784269
+    name: "Sprint 4 Close: Developer Contribution Report"
+    due_at: "2026-10-26T21:00:00Z"
+
+  - iteration: 5
+    assignment_id: 784268
+    name: "Sprint 5 Close: Developer Contribution Report"
+    due_at: "2026-11-09T22:00:00Z"
+
+  - iteration: 6
+    assignment_id: 784259
+    name: "Sprint 6 Close: Developer Contribution Report"
+    due_at: "2026-11-23T22:00:00Z"
