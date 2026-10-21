@@ -186,28 +186,34 @@ feedback:
   # run shows which departures are worth escalating.
 
 # ---------------------------------------------------------------------------
-# NOT READ BY ANY CODE. DO NOT ASSUME THIS IS WIRED.
+# READ BY `course feedback demos --iteration N`, which resolves the assignment
+# from here instead of taking it as a flag. Wired 2026-10-21.
 #
-# `ActivityConfig` does not set `deny_unknown_fields`, so this block parses and
-# is then discarded in silence. No `checkpoints` schema is implemented anywhere:
-# it is not on MosTidy main, and the approved unified feedback plan that
-# specifies it has no implementation branch. The shape below is this file's own
-# invention and will likely change when the real schema lands.
+# This block was written before any code read it, and said so. That is no
+# longer true, so the warning is gone rather than left to mislead. `-a` still
+# overrides, for a re-opened or ad-hoc assignment.
 #
-# The ids are recorded here because they are a verified fact that otherwise
-# lives nowhere in version control. Until the wiring exists, fetching a sprint
-# close means naming the assignment by hand:
+# The shape was this file's own invention and became the schema. Being keyed by
+# iteration rather than by a name convention is what made it adoptable: the
+# approved digest plan's one requirement was that an iteration resolve to an
+# assignment "without string guessing", which an iteration key satisfies by
+# construction.
 #
-#   mostidy course feedback . fetch -a 784251
-#
-# Fetched from Canvas course 92754 on 2026-10-05. All six are published. Note
-# the ids are NOT in sprint order: sprint 5 is 784268 and sprint 6 is 784259, so
+# Fetched from Canvas course 92754 on 2026-10-05. All six are published. The
+# ids are NOT in sprint order: sprint 5 is 784268 and sprint 6 is 784259, so
 # deriving one from another, or reusing the Spring 2026 ids in
 # provision_manifest.yaml (705523-705531, course 83690), would silently pair an
-# iteration with the wrong assignment.
+# iteration with the wrong assignment. That is why each run prints the
+# assignment name beside the iteration it resolved for -- a wrong id here
+# produces a complete, plausible report about a different fortnight, and the
+# name is the only thing that gives it away.
+#
+# Sprints 1-6 have a close; iteration 0 is onboarding and iteration 7 is
+# Launch, so both are absent on purpose and the command refuses them by name.
 #
 # `due_at` is 16:00 America/Chicago throughout; the UTC hour shifts from 21:00
 # to 22:00 at sprint 5 because of the 1 November daylight saving change.
+# Nothing computes with it -- it is here so output can say what was due.
 # ---------------------------------------------------------------------------
 checkpoints:
   - iteration: 1
