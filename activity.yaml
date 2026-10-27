@@ -364,3 +364,59 @@ teams:
   - name: cs_research
     code: cs_research
     repositories: []
+
+# What each role is evaluated against. Verbatim from the syllabus's "Final Grade
+# Breakdown" (CSCI 4961/4962/5960, 2026-08-19), with the descriptions condensed
+# from its "Detailed Grade Component Descriptions".
+#
+# Declared here rather than in the codehort's activity.yaml because a rubric is
+# per role and a role sits in one course. Tech leads are evaluated against a
+# different five components, declared in course_dossp.
+#
+# These are weights, not a scoring scheme. The syllabus names **professional
+# judgment** as the assessment approach and publishes no bands or point values
+# per component, which is deliberate: a weight says how much a component matters
+# to the whole, not how to compute it. Nothing multiplies these.
+rubrics:
+  developer:
+    stretch_category: excellence
+    categories:
+      - id: discovery
+        name: Discovery
+        weight: 0.20
+        description: >-
+          Engagement with understanding project requirements, exploring solution
+          approaches, and investigating technical challenges: client meetings,
+          research, initial designs, documented findings.
+      - id: delivery
+        name: Delivery
+        weight: 0.25
+        description: >-
+          Completed work that advances project goals and meets quality
+          standards: merged pull requests, implemented features, resolved
+          issues, documented solutions.
+      - id: collaboration
+        name: Collaboration
+        weight: 0.15
+        description: >-
+          Effectiveness as a team member through code reviews, retrospective
+          participation, communication quality, and support for teammates.
+      - id: demonstration
+        name: Demonstration
+        weight: 0.15
+        description: >-
+          Ability to showcase and explain work through demo videos,
+          presentations, and live demonstrations, for varied audiences.
+      - id: client_satisfaction
+        name: Client Satisfaction
+        weight: 0.15
+        description: >-
+          Client feedback on progress, communication effectiveness, and
+          responsiveness to requirements. Arrives out of band from clients.
+      - id: excellence
+        name: Excellence
+        weight: 0.10
+        description: >-
+          Exceptional contributions significantly beyond baseline expectations:
+          mentoring, open source community contributions, innovative solutions,
+          leadership in team processes. Student-documented.
