@@ -388,6 +388,11 @@ rubrics:
           Engagement with understanding project requirements, exploring solution
           approaches, and investigating technical challenges: client meetings,
           research, initial designs, documented findings.
+        # Deliberately empty. Client meetings, research and initial designs
+        # land nowhere this pipeline reads, so the document says that at the
+        # component. 20% of the grade on instructor observation alone is worth
+        # a reader seeing plainly rather than inferring from a short section.
+        evidence: []
       - id: delivery
         name: Delivery
         weight: 0.25
@@ -395,24 +400,37 @@ rubrics:
           Completed work that advances project goals and meets quality
           standards: merged pull requests, implemented features, resolved
           issues, documented solutions.
+        # Merged pull requests, implemented features, commits -- which is what
+        # the syllabus's own description of Delivery names.
+        evidence: [activity]
       - id: collaboration
         name: Collaboration
         weight: 0.15
         description: >-
           Effectiveness as a team member through code reviews, retrospective
           participation, communication quality, and support for teammates.
+        # Code reviews, from version control. Retrospective participation and
+        # communication quality are the other half of what the syllabus names
+        # here, and `chat` is declared so the document states that no chat
+        # provider was collected rather than leaving a silence to be read as a
+        # zero.
+        evidence: [activity, chat]
       - id: demonstration
         name: Demonstration
         weight: 0.15
         description: >-
           Ability to showcase and explain work through demo videos,
           presentations, and live demonstrations, for varied audiences.
+        # The demo videos and written reports collected per sprint close.
+        evidence: [demos]
       - id: client_satisfaction
         name: Client Satisfaction
         weight: 0.15
         description: >-
           Client feedback on progress, communication effectiveness, and
           responsiveness to requirements. Arrives out of band from clients.
+        # Empty: client feedback arrives out of band and nothing collects it.
+        evidence: []
       - id: excellence
         name: Excellence
         weight: 0.10
@@ -420,3 +438,7 @@ rubrics:
           Exceptional contributions significantly beyond baseline expectations:
           mentoring, open source community contributions, innovative solutions,
           leadership in team processes. Student-documented.
+
+        # Empty: student-documented, on personal sites and project blogs, and
+        # excluded from the midterm in any case.
+        evidence: []
