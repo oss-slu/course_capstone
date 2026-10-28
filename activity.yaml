@@ -313,6 +313,21 @@ teams:
       - oss_infra_ops
       - k8s-dev-cluster
       - k8s-manifests
+    # Where this team is expected to work beyond its own products.
+    #
+    # Consulted by `course tidy teams` and by nothing else: it does not widen
+    # what is collected, does not change this team's throughput, and does not
+    # affect which team a repository's practice is filed under. Those stay
+    # driven by `repositories` above.
+    #
+    # Declared because a devops team legitimately touches everyone's CI. The
+    # first `tidy teams` run reported seven such commits -- Hunter Cataldo in
+    # DigitalBoneBox, Kysen Krishnaswamy in material-derailleur, and five more
+    # -- as possible roster errors. They are not. The commits still count
+    # toward each student individually, as they already did; this stops the
+    # suspicion without letting this team's report claim six hundred commits
+    # that are not its products'.
+    expected_scope: teams
   - name: analytics
     code: analytics
     repositories:
